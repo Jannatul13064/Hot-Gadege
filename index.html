@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Gadgets</title>
+    <!-- bootstrap css link -->
+    <script src="https://kit.fontawesome.com/2e8855499a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- headerpart start -->
+    <header>
+        <div class="container">
+            <div class="row gx-0 navbar navbar-expand-lg navbar-light">
+                <div class="col-12 col-lg-8 col-md-12 mx-3">
+                    <div class="logo d-flex justify-content-between align-items-center">
+                        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-0 col-lg-4 col-md-0">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">PRODUCT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carosel-Slider -->
+        <section>
+            <div class="container bg-light p-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-11 col-lg-4">
+                                    <h1>Mackbook pro</h1>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature.
+                                    </p>
+                                    <button type="button" class="btn btn-danger">Buy Now</button>
+                                </div>
+                                <div class="col-1 col-lg-1">
+                                    <img class="mw-100" src="img/bg-1.png" alt="">
+                                </div>
+                                <div class="col-0 col-lg-7">
+                                    <img class="mw-100" src="img/banner-products/product-1.png" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-11 col-lg-4">
+                                    <h1>Alexa Mini</h1>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature.
+                                    </p>
+                                    <button type="button" class="btn btn-danger">Buy Now</button>
+                                </div>
+                                <div class="col-1 col-lg-1">
+                                    <img class="mw-100" src="img/bg-1.png" alt="">
+                                </div>
+                                <div class="col-0 col-lg-7">
+                                    <img class="mw-100" src="img/banner-products/slider-1.png" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-11 col-lg-4">
+                                    <h1>JBL Virtual Assistant</h1>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature.
+                                    </p>
+                                    <button type="button" class="btn btn-danger">Buy Now</button>
+                                </div>
+                                <div class="col-1 col-lg-1">
+                                    <img class="mw-100" src="img/bg-1.png" alt="">
+                                </div>
+                                <div class="col-0 col-lg-7">
+                                    <img class="mw-100" src="img/banner-products/slider-3.png" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- categories bottom selector buttons((three dots btn)) -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <img class="d-none d-lg-block" src="img/bg-2.png" alt="">
+    </header>
+
+    <main>
+        <!-- Products Section -->
+        <!-- Mobilephone Cart-->
+        <section class="container">
+            <div class="mobile my-5">
+                <div class="d-flex justify-content-between">
+                    <h1>Samrtphone</h1>
+                    <h3 class="text-warning">See All</h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg p-3">
+                            <img src="img/phone/phone-1.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">iPhone 11 Pro</h3>
+                                <p class="card-text">Some quick example text to build on
+                                    the card title.</p>
+                                <h3>$999</h3>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-danger">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg p-3">
+                            <img src="img/phone/phone-2.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Samsung Galaxy Note10+</h3>
+                                <p class="card-text">Some quick example text to build on
+                                    the card title.</p>
+                                <h3>$799</h3>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-danger">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg p-3">
+                            <img src="img/phone/phone-3.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Redmi Note 10</h3>
+                                <p class="card-text">Some quick example text to build on
+                                    the card title.</p>
+                                <h3>$699</h3>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-danger">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Laptop Section -->
+        <section class="container">
+            <div class="mobile my-5">
+                <div class="d-flex justify-content-between">
+                    <h1>Laptop</h1>
+                    <h3 class="text-warning">See All</h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg p-3">
+                            <img src="img/laptop/product-1.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Asus VivoBook</h3>
+                                <p class="card-text">Some quick example text to build on
+                                    the card title.</p>
+                                <h3>$999</h3>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-danger">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg p-3">
+                            <img src="img/laptop/product-2.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Razer Blade 15</h3>
+                                <p class="card-text">Some quick example text to build on
+                                    the card title.</p>
+                                <h3>$2799</h3>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-danger">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg p-3">
+                            <img src="img/laptop/product-3.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Xiaomi Mi Notebook Pro</h3>
+                                <p class="card-text">Some quick example text to build on
+                                    the card title.</p>
+                                <h3>$999</h3>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-danger">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-2">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" for="form5Example2">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                    repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                    eum harum corrupti dicta, aliquam sequi voluptate quas.
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Hot Gadgets</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+    <!-- javasript link bootsrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
